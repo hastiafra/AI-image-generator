@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai Image Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video autoplay loop muted class="bgVideo">
+      <source src="./assets/videos/background.mp4" />
+    </video>
+    <div class="content">
+      <h1>AI Image Generator</h1>
+
+      <div class="inputContainer">
+        <input placeholder="TYPE HERE" />
+        <button id="submitBtn">
+          <img src="./assets/svgs/go.svg" alt="" />
+        </button>
+      </div>
+    </div>
+    <div class="ImageContainer"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+input {
+  border-radius: 25px;
+  font-family: "Playwrite NG Modern", cursive;
+  font-size: 18px;
+  height: 50px;
+  padding: 10px 20px;
+  position: relative;
+  width: 25vw;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Playwrite NG Modern", cursive;
+}
+
+button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
